@@ -71,6 +71,72 @@ a {
 /*Article Section*/
 
 section {
-  border: 1px solid black;
   display: flex;
+	padding-top: 116px;
+}
+
+/*First Column*/
+
+.large {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 630px;
+}
+
+.phish {
+	border: 1px solid black;
+}
+
+.phish-image {
+	border: 1px solid black;
+}
+
+.orca {
+	border: 1px solid black;
+}
+
+.earth {
+	border: 1px solid black;
+}
+
+.burgers {
+	border: 1px solid black;
+}
+
+.cameras {
+	border: 1px solid black;
+}
+
+/*Second Column*/
+
+.medium {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+
+.fbi {
+	border: 1px solid black;
+}
+
+.cats {
+	border: 1px solid black;
+}
+/*Third Column*/
+
+.small {
+	border: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 240px;
+}
+
+h3 {
+	font-weight: bold;
+}
+
+.news-bites {
+	border: 1px solid black;
 }
