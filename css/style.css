@@ -40,6 +40,10 @@ header {
   z-index: 1;
 }
 
+div {
+	display: block;
+}
+
 .logo {
   align-items: center;
   display: flex;
@@ -78,21 +82,21 @@ section {
 /*First Column*/
 
 .large {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
+	margin-right: 32px;
 	width: 630px;
 }
 
 .phish .image {
 	background-image: url(../resources/images/img-story-main.png);
-	border: 1px solid black;
+
 	font-size: 40px;
+	margin-top: 0px;
 	text-align: left;
 }
 
 .image {
-	border: 1px solid black;
 	color: white;
 	display: flex;
 	font-family: Georgia;
@@ -100,6 +104,20 @@ section {
 	font-weight: bold;
 	height: 300px;
 	justify-content: center;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+
+.story {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
 }
 
 p {
@@ -108,10 +126,6 @@ p {
 	font-family: Georgia;
 	font-size: 17px;
 	margin: 1em 0;
-}
-
-.orca {
-	border: 1px solid black;
 }
 
 h2 {
@@ -123,44 +137,31 @@ h2 {
 
 .earth {
 	background-image: url(../resources/images/img-story-2.png);
-	border: 1px solid black;
-
-}
-
-.burgers {
-	border: 1px solid black;
 }
 
 .cameras {
 	background-image: url(../resources/images/img-story-3.png);
-	border: 1px solid black;
-
 }
 
 /*Second Column*/
 
 .medium {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
+	margin-right: 32px;
 	width: 300px;
-}
-
-.fbi {
-	border: 1px solid black;
 }
 
 .cats {
 	background-image: url(../resources/images/img-story-1.png);
-	border: 1px solid black;
-
 }
+
 /*Third Column*/
 
 .small {
-	border: 1px solid black;
 	display: flex;
 	flex-direction: column;
+	margin-right: 32px;
 	width: 240px;
 }
 
@@ -172,5 +173,4 @@ h3 {
 }
 
 .news-bites {
-	border: 1px solid black;
 }
