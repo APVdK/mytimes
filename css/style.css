@@ -99,6 +99,7 @@ section {
 .image {
 	color: white;
 	display: flex;
+	flex-direction: column;
 	font-family: Georgia;
 	font-size: 30px;
 	font-weight: bold;
@@ -108,9 +109,14 @@ section {
 	text-align: center;
 }
 
+.large .phish .image span {
+	margin-left: 20px;
+}
+
 .stories {
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 78px;
 	margin-top: 17px;
 }
 
@@ -130,9 +136,11 @@ p {
 
 h2 {
 	display: block;
-	font-size: 1.5em;
+	font-family: Georgia;
+	font-size: 30px;
 	font-weight: bold;
-	margin: 0.83em 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 .earth {
@@ -167,10 +175,50 @@ h2 {
 
 h3 {
 	display: block;
-	font-size: 1.17em;
+	font-size: 16px;
 	font-weight: bold;
 	margin: 1em 0;
+	text-align: center;
 }
 
 .news-bites {
+
+}
+
+.list span {
+	display: block;
+	background-color: Whitesmoke;
+	border-bottom: 1px solid black;
+	color: DimGray;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 11px 20px;
+}
+
+footer {
+	align-items: center;
+	background-color: MediumAquamarine;
+	display: flex;
+	flex-direction: column;
+	font-family: Verdana;
+	font-size: 12px;
+	height: 325px;
+	justify-content: center;
+	margin: auto;
+	width: 100%;
+}
+
+.title {
+	border-right: 2px solid white;
+	color: white;
+	display: inline-block;
+	font-family: Georgia;
+	font-size: 16px;
+	font-weight: bold;
+	padding-right: 25px;
+}
+
+footer nav {
+	display: inline-block;
+	padding-left: 25px;
 }
